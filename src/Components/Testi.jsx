@@ -56,6 +56,7 @@ function Testi() {
   }, []);
   const [ref6, inView6] = useInView({
     threshold: 0.20, 
+    triggerOnce: true,
   });
   
   return (

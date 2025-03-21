@@ -7,9 +7,11 @@ import { faTwitter, faInstagram, faFacebookF } from "@fortawesome/free-brands-sv
 function Chefs(Props) {
  const [ref5, inView5] = useInView({
       threshold: 0.20, 
+      triggerOnce: true,
     });
     const [ref7, inView7] = useInView({
         threshold: 0.20, 
+        triggerOnce: true,
       });
    
   return (

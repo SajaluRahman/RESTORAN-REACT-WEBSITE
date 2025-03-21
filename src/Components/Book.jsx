@@ -6,6 +6,7 @@ function Book() {
 
      const [ref4, inView4] = useInView({
           threshold: 0.20, 
+          triggerOnce: true,
         });
   return (
     <div><section

@@ -11,9 +11,11 @@ import { useInView } from "react-intersection-observer";
 function Menus() {
   const [ref, inView] = useInView({
       threshold: 0.20, 
+      triggerOnce: true,
     });
      const [ref3, inView3] = useInView({
           threshold: 0.20, 
+          triggerOnce: true,
         });
     const menuItems = [
         { id: 1, name: "Chicken Burger", price: "$115", image: Burger, category: "Breakfast" },

@@ -10,9 +10,11 @@ function Abouts() {
   
   const [ref1, inView1] = useInView({
     threshold: 0.2,
+    triggerOnce: true,
   });
   const [ref2, inView2] = useInView({
     threshold: 0.2,
+    triggerOnce: true,
   });
 
   const [count1, setCount1] = useState(0);

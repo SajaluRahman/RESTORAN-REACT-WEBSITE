@@ -10,6 +10,7 @@ function Box( Props) {
       
   const [ref, inView] = useInView({   
     threshold: 0.10, 
+    triggerOnce: true,
   });    
   
   return (

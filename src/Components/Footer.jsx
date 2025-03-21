@@ -6,12 +6,13 @@ import { useInView } from "react-intersection-observer";
 function Footer() {
     const [ref7, inView7] = useInView({
         threshold: 0.20, 
+        triggerOnce: true,
       });
   return (
     <div><footer ref={ref7}  className={`bg-gray-900 text-gray-300 py-12 transform duration-1000 ease-out transition-all delay-300 overflow-hidden ${
         inView7
           ? "opacity-100 translate-y-0"
-          : "opacity-0 translate-y-34"
+          : "opacity-0 -translate-y-34"
       } `}>
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         {/* Company Section */}
