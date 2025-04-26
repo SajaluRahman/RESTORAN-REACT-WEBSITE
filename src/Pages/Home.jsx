@@ -3,11 +3,7 @@ import Nav from '../Components/Nav'
 import img1 from '../Images/hero.png'
 
 import { useInView } from "react-intersection-observer";
-import Box from '../Components/box'
-
-
-
-
+import Box from '../Components/Box'
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
