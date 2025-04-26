@@ -1,7 +1,7 @@
 import React from 'react'
 import Footer from '../Components/Footer'
 import Head from '../Components/Head'
-import Box from '../Components/box'
+import Box from '../Components/Box'
 
 function Service() {
   return (
